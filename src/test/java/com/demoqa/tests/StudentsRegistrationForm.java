@@ -13,9 +13,9 @@ public class StudentsRegistrationForm extends TestBase {
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();
     RegistrationFormData registrationFormData = new RegistrationFormData();
 
-    @Feature("Students registration form")
+    @Feature("Форма регистрации студента")
     @Owner("akormilcov")
-    @DisplayName("Checking student registration form")
+    @DisplayName("Проверка формы регистрации студента")
     @Test
     void fillFormTest() {
         step("Открыть страницу регистрации студента", ()-> {
