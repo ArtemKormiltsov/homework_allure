@@ -31,7 +31,7 @@ public class TestBase {
 
     @AfterEach
     void addAttachments() {
-        Attach.screenshotAs("last screenshot");
+        Attach.screenshotAs("Screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();
         if ((System.getProperty("selenide.remote") != null)) {
