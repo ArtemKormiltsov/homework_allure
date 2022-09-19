@@ -1,0 +1,16 @@
+{
+  "base": {
+    "project": "qa.guru.homework-notifications",
+    "environment": "Test",
+    "comment": "Some comment",
+    "reportLink": "",
+    "language": "en",
+    "allureFolder": "build/allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "5778123290:AAG_a3Lw1euWdArEsnyfXlSs5wwXiP2l_vU",
+    "chat": "-1001661038698",
+    "replyTo": ""
+  }
+}

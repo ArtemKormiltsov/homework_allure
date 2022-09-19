@@ -1,41 +1,58 @@
 package com.demoqa.tests;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.junit5.BrowserPerTestStrategyExtension;
 import com.codeborne.selenide.logevents.SelenideLogger;
+import com.demoqa.data.TestData;
 import com.demoqa.helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.remote.DesiredCapabilities;
+
+@ExtendWith({BrowserPerTestStrategyExtension.class})
 
 public class TestBase {
 
     @BeforeAll
-    public static void init() {
+    static void configure() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("enableVNC", true);
-        capabilities.setCapability("enableVideo", true);
+
         Configuration.browserCapabilities = capabilities;
-        Configuration.baseUrl = "https://demoqa.com";
+        Configuration.baseUrl = TestData.baseUrl;
+        Configuration.browser = TestData.browserName;
+        Configuration.browserVersion = TestData.browserVersion;
+        Configuration.browserSize = TestData.browserSize;
 
-        Configuration.browser = System.getProperty("browser_name", "chrome");
-        Configuration.browserVersion = System.getProperty("browser_version", "100.0");
-        Configuration.browserSize = System.getProperty("browser_size", "1920x1080");
+        if (TestData.remote == null || TestData.remote.equals("")) {
+        } else {
+            Configuration.remote = "https://"
+                    + TestData.LOGIN_REMOTE + ":"
+                    + TestData.PASSWORD_REMOTE + "@"
+                    + TestData.remote;
 
-        if (System.getProperty("selenide.remote") != null) {
-            Configuration.remote = System.getProperty("selenide.remote");
+            capabilities.setCapability("enableVNC", true);
+            capabilities.setCapability("enableVideo", true);
+        }
+
+        if (TestData.browserVersion != null) {
+            Configuration.browserVersion = TestData.browserVersion;
         }
     }
 
     @AfterEach
     void addAttachments() {
-        Attach.screenshotAs("Screenshot");
+        Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         Attach.browserConsoleLogs();
-        if ((System.getProperty("selenide.remote") != null)) {
+
+        if (TestData.remote == null || TestData.remote.equals("")) {
+        } else {
             Attach.addVideo();
         }
     }
 }
+
