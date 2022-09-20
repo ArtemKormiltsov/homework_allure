@@ -4,14 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd38f78-bd36-497d-b85d-2f9d79340a05" name="Changes" comment="add propperties">
-      <change afterPath="$PROJECT_DIR$/notifications/NewFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/Telegram.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/allure-notifications-4.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/data/TestData.java" afterDir="false" />
+    <list default="true" id="1dd38f78-bd36-497d-b85d-2f9d79340a05" name="Changes" comment="add notifications">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/358c2f61-61de-43a8-b89a-980e5b16c437-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/5122c504-8cd0-4849-85da-8ba00b4f71c4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/dd8cc91a-cfa2-4940-8477-407bd4e547a5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/data/RegistrationFormData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/data/RegistrationFormData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/pages/RegistrationFormPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/pages/RegistrationFormPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/pages/components/CalendarComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/pages/components/CalendarComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/pages/components/CheckboxComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/pages/components/CheckboxComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/pages/components/ListComponents.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/pages/components/ListComponents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/tests/StudentsRegistrationForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/tests/StudentsRegistrationForm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/demoqa/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.demoqa.tests.StudentsRegistrationForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.demoqa.tests.StudentsRegistrationForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.demoqa.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.demoqa.tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.demoqa.tests.StudentsRegistrationForm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.demoqa.tests.StudentsRegistrationForm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notifications/NewFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notifications/NewFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notifications/Telegram.json" beforeDir="false" afterPath="$PROJECT_DIR$/notifications/Telegram.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +70,13 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="homework_allure" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="homework_allure" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="homework_allure" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="homework_allure" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="homework_allure" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -78,6 +93,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -93,9 +113,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -104,15 +124,18 @@
       <recent name="D:\Job\R-Vision\homework_allure\src\test\java\com\demoqa\tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Job\R-Vision\homework_allure\build\reports" />
+      <recent name="D:\Job\R-Vision\homework_allure\build\allure-report" />
+      <recent name="D:\Job\R-Vision\homework_allure\build" />
+      <recent name="D:\Job\R-Vision\homework_allure\build\reports\allure-report" />
       <recent name="D:\Job\R-Vision\homework_allure\notifications" />
-      <recent name="D:\Job\R-Vision\homework_allure\src\test\java\com\demoqa\data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.demoqa.data" />
       <recent name="com.demoqa.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StudentsRegistrationForm (1)">
+  <component name="RunManager" selected="Gradle.homework_allure [allureServe]">
     <configuration name="StudentsRegistrationForm (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -159,9 +182,75 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="homework_allure [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="homework_allure [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="homework_allure [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.homework_allure [allureServe]" />
+        <item itemvalue="Gradle.homework_allure [allureReport]" />
         <item itemvalue="Gradle.StudentsRegistrationForm (1)" />
+        <item itemvalue="Gradle.homework_allure [clean]" />
         <item itemvalue="Gradle.StudentsRegistrationForm.fillFormTest" />
       </list>
     </recent_temporary>
@@ -224,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663015204758</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add notifications">
+      <created>1663614758255</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663614758255</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +340,8 @@
     <MESSAGE value="add" />
     <MESSAGE value="add attach" />
     <MESSAGE value="add propperties" />
-    <option name="LAST_COMMIT_MESSAGE" value="add propperties" />
+    <MESSAGE value="add notifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="add notifications" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

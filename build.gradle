@@ -1,14 +1,14 @@
 plugins {
-    id 'java'
-    id 'io.qameta.allure' version '2.10.0'
+    id 'java-library'
+    id 'io.qameta.allure' version '2.11.0'
 }
 
 repositories {
     mavenCentral()
 }
 
-def allureVersion = "2.19.0",
-    slf4jVersion = "1.7.32"
+//def allureVersion = "2.19.0",
+//    slf4jVersion = "1.7.32"
 
 allure {
     report {
@@ -47,4 +47,4 @@ tasks.withType(Test) {
     }
 }
 
-test {}
+//test {}
